@@ -20,7 +20,7 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const int count = 6;
+        private int count = 0;
         private Random random = new Random();
         private bool isPlayer1Turn = true;
         private int bulletPosition = 0;
